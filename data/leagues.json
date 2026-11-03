@@ -1,0 +1,444 @@
+{
+  "note": "Source league name -> Kalshi series prefix(es). The tool looks for <prefix>GAME, <prefix>TOTAL, <prefix>BTTS and <prefix>TEAMTOTAL. Leagues not listed are skipped and shown in the coverage report.",
+  "leagues": {
+    "England Premier League": [
+      "KXEPL"
+    ],
+    "England Championship": [
+      "KXEFLCHAMPIONSHIP"
+    ],
+    "England League 1": [
+      "KXEFLL1"
+    ],
+    "Spain La Liga": [
+      "KXLALIGA"
+    ],
+    "Spain Segunda": [
+      "KXLALIGA2"
+    ],
+    "Germany Bundesliga I": [
+      "KXBUNDESLIGA"
+    ],
+    "Germany Bundesliga II": [
+      "KXBUNDESLIGA2"
+    ],
+    "Germany 3.Liga": [
+      "KXGER3L"
+    ],
+    "Italy Serie A": [
+      "KXSERIEA"
+    ],
+    "Italy Serie B": [
+      "KXSERIEB"
+    ],
+    "France Ligue 1": [
+      "KXLIGUE1"
+    ],
+    "France Ligue 2": [
+      "KXLIGUE2"
+    ],
+    "Netherlands Eredivisie": [
+      "KXEREDIVISIE"
+    ],
+    "Netherlands Eerste Divisie": [
+      "KXEERSTEDIV"
+    ],
+    "Portugal Primeira Liga": [
+      "KXLIGAPORTUGAL"
+    ],
+    "Belgium First Division A": [
+      "KXBELGIANPL"
+    ],
+    "Scotland Premiership": [
+      "KXSCOTTISHPREM"
+    ],
+    "Turkey Super Lig": [
+      "KXSUPERLIG"
+    ],
+    "Turkey 1 Lig": [
+      "KXTFF1LIG"
+    ],
+    "Switzerland Super League": [
+      "KXSWISSLEAGUE"
+    ],
+    "Denmark Superligaen": [
+      "KXDENSUPERLIGA",
+      "KXDANISHSUPERLIGA"
+    ],
+    "Norway Eliteserien": [
+      "KXELITESERIEN"
+    ],
+    "Sweden Allsvenskan": [
+      "KXALLSVENSKAN"
+    ],
+    "Poland Ekstraklasa": [
+      "KXEKSTRAKLASA"
+    ],
+    "Czech Republic 2. Liga": [
+      "KXCZEFNL"
+    ],
+    "Croatia HNL": [
+      "KXHNL"
+    ],
+    "Serbia Super Liga": [
+      "KXSRBSL"
+    ],
+    "Slovenia Prva Liga": [
+      "KXSVNPL"
+    ],
+    "Slovakia 2. Liga": [
+      "KXSVK2L"
+    ],
+    "Latvia Virsliga": [
+      "KXLVAVIR"
+    ],
+    "Faroe Islands Premier League": [
+      "KXFROPL"
+    ],
+    "Israel Premier League": [
+      "KXISRPL"
+    ],
+    "USA MLS": [
+      "KXMLS"
+    ],
+    "USA USL Championship": [
+      "KXUSL"
+    ],
+    "Canada Premier League": [
+      "KXCANPL"
+    ],
+    "Mexico Liga MX": [
+      "KXLIGAMX"
+    ],
+    "Mexico Liga de Expansion": [
+      "KXLIGAEXP"
+    ],
+    "Brazil Serie A": [
+      "KXBRASILEIRO"
+    ],
+    "Brazil Serie B": [
+      "KXBRASILEIROB"
+    ],
+    "Argentina Liga Profesional": [
+      "KXARGPREMDIV"
+    ],
+    "Argentina Nacional B": [
+      "KXARGNACB"
+    ],
+    "Colombia Primera A": [
+      "KXDIMAYOR"
+    ],
+    "Chile Primera Division": [
+      "KXCHLLDP"
+    ],
+    "Peru Liga 1": [
+      "KXPERLIGA1"
+    ],
+    "Paraguay Division Profesional": [
+      "KXAPFDDH"
+    ],
+    "Venezuela Primera Division": [
+      "KXVENFUTVE"
+    ],
+    "Bolivia Apertura": [
+      "KXBOLPDIV"
+    ],
+    "Copa Sudamericana": [
+      "KXCONMEBOLSUD"
+    ],
+    "Japan J-League": [
+      "KXJLEAGUE"
+    ],
+    "Japan J2-League": [
+      "KXJ2LEAGUE"
+    ],
+    "South Korea K League 2": [
+      "KXK2LEAGUE"
+    ],
+    "China Super League": [
+      "KXCHNSL"
+    ],
+    "China Division 1": [
+      "KXCHNL1"
+    ],
+    "Indonesia Liga 1": [
+      "KXIDNSL"
+    ],
+    "Thailand Premier League": [
+      "KXTHAIL1"
+    ],
+    "Vietnam V-League": [
+      "KXVLEAGUE1"
+    ],
+    "Singapore Premier League": [
+      "KXSGPPL"
+    ],
+    "Saudi Arabia Pro League": [
+      "KXSAUDIPL"
+    ],
+    "Qatar Stars League": [
+      "KXQSTARS"
+    ],
+    "AFC Champions League Elite": [
+      "KXAFCCL"
+    ],
+    "Austria Bundesliga": [
+      "KXAUTBUNDES"
+    ],
+    "Egypt Division 1": [
+      "KXEGYPL"
+    ],
+    "Hungary NB I": [
+      "KXHUNNB1"
+    ],
+    "India Super League": [
+      "KXINDSL"
+    ],
+    "Romania Liga I": [
+      "KXROML1"
+    ],
+    "UEFA Conference League": [
+      "KXUECL"
+    ],
+    "UEFA Europa League": [
+      "KXUEL"
+    ],
+    "UEFA Champions League": [
+      "KXUCL"
+    ],
+    "Copa Libertadores": [
+      "KXCONMEBOLLIB"
+    ],
+    "Slovakia Cup": [
+      "KXSVKCUP"
+    ],
+    "Czechia First League": [
+      "KXCZEFL"
+    ],
+    "Czech Republic 1. Liga": [
+      "KXCZEFL"
+    ],
+    "Greece Super League": [
+      "KXSLGREECE"
+    ],
+    "Greece Super League 1": [
+      "KXSLGREECE"
+    ],
+    "South Korea K League 1": [
+      "KXKLEAGUE"
+    ],
+    "Australia A-League": [
+      "KXALEAGUE"
+    ],
+    "Uruguay Primera Division": [
+      "KXURYPD"
+    ],
+    "Ecuador Liga Pro": [
+      "KXECULP"
+    ],
+    "Ecuador Serie A": [
+      "KXECULP"
+    ],
+    "South Africa Premiership": [
+      "KXSAPSL"
+    ],
+    "Malaysia Super League": [
+      "KXMYSL"
+    ],
+    "UAE Pro League": [
+      "KXUAEPL"
+    ],
+    "Italy Serie C": [
+      "KXSERIEC"
+    ],
+    "Sweden Ettan": [
+      "KXETTAN"
+    ],
+    "Netherlands Tweede Divisie": [
+      "KXTWEEDEDIV"
+    ],
+    "England National League": [
+      "KXENGNL"
+    ],
+    "Brazil Serie C": [
+      "KXBRASILEIROC"
+    ],
+    "Israel Leumit League": [
+      "KXISRNL"
+    ],
+    "Germany DFB Pokal": [
+      "KXDFBPOKAL"
+    ],
+    "Portugal Taca de Portugal": [
+      "KXTACAPORT"
+    ],
+    "England FA Cup": [
+      "KXFACUP"
+    ],
+    "England EFL Cup": [
+      "KXEFLCUP"
+    ],
+    "England EFL Trophy": [
+      "KXEFLTROPHY"
+    ],
+    "Spain Copa del Rey": [
+      "KXCOPADELREY"
+    ],
+    "Italy Coppa Italia": [
+      "KXCOPPAITALIA"
+    ],
+    "France Coupe de France": [
+      "KXCOUPEDEFRANCE"
+    ],
+    "Brazil Copa do Brasil": [
+      "KXCOPADOBRASIL"
+    ],
+    "USA US Open Cup": [
+      "KXUSOPENCUP"
+    ],
+    "CONCACAF Champions Cup": [
+      "KXCONCACAFCCUP"
+    ],
+    "UEFA Nations League": [
+      "KXUEFANL"
+    ],
+    "CONCACAF Nations League": [
+      "KXCONCACAFNL"
+    ],
+    "International Friendlies": [
+      "KXINTLFRIENDLY"
+    ],
+    "Club Friendlies": [
+      "KXCLUBF"
+    ],
+    "USA USL Cup": [
+      "KXUSLCUP"
+    ],
+    "Scotland FA Cup": [
+      "KXSCOCUP"
+    ],
+    "Netherlands KNVB Cup": [
+      "KXKNVBCUP"
+    ],
+    "Czechia 2. Liga": [
+      "KXCZEFNL"
+    ],
+    "Griechenland - Super League 1": [
+      "KXSLGREECE"
+    ],
+    "Uruguay Apertura": [
+      "KXURYPD"
+    ],
+    "Uruguay Clausura": [
+      "KXURYPD"
+    ],
+    "Uruguay Torneo Intermedio": [
+      "KXURYPD"
+    ],
+    "Ecuador LigaPro Serie A": [
+      "KXECULP"
+    ],
+    "Sweden 1.div Norra": [
+      "KXETTAN"
+    ],
+    "Sweden 1.div Södra": [
+      "KXETTAN"
+    ],
+    "Copa do Brasil": [
+      "KXCOPADOBRASIL"
+    ],
+    "International Friendly": [
+      "KXINTLFRIENDLY"
+    ],
+    "World Club Friendlies": [
+      "KXCLUBF"
+    ],
+    "Netherlands Cup": [
+      "KXKNVBCUP"
+    ],
+    "Dutch Cup": [
+      "KXKNVBCUP"
+    ],
+    "Türkiye 1 Lig": [
+      "KXTFF1LIG"
+    ],
+    "Türkiye Super Lig": [
+      "KXSUPERLIG"
+    ],
+    "UAE Premier League": [
+      "KXUAEPL"
+    ],
+    "Indonesia Super League": [
+      "KXIDNSL"
+    ],
+    "Germany 3. Liga": [
+      "KXGER3L"
+    ],
+    "Perú - Liga 1": [
+      "KXPERLIGA1"
+    ],
+    "Paraguai - División Profesional": [
+      "KXAPFDDH"
+    ],
+    "Paraguay - Primera División": [
+      "KXAPFDDH"
+    ],
+    "Índia - Super League": [
+      "KXINDSL"
+    ],
+    "Chile Liga de Primera": [
+      "KXCHLLDP"
+    ],
+    "Bolivia Primera Division": [
+      "KXBOLPDIV"
+    ],
+    "UEFA Champions League Qualifying": [
+      "KXUCL"
+    ],
+    "UEFA Europa League Qualifying": [
+      "KXUEL"
+    ],
+    "UEFA Conference League Qualifying": [
+      "KXUECL"
+    ],
+    "USA NWSL Women": [
+      "KXNWSL"
+    ],
+    "Leagues Cup": [
+      "KXLEAGUESCUP"
+    ],
+    "England Super League Women": [
+      "KXEWSL"
+    ],
+    "Germany Bundesliga Women": [
+      "KXBUNDESLIGAW"
+    ],
+    "Italy Serie A Women": [
+      "KXSERIEAW"
+    ],
+    "Netherlands Eredivisie Women": [
+      "KXEREDIVISIEW"
+    ],
+    "UEFA Womens Champions League": [
+      "KXUCLW"
+    ],
+    "Africa Cup of Nations": [
+      "KXAFCON"
+    ],
+    "Finland Cup": [
+      "KXFINCUP"
+    ],
+    "Finland Ykkosliiga": [
+      "KXFINYL"
+    ],
+    "Faroe Islands Cup": [
+      "KXFROCUP"
+    ],
+    "Greece Cup": [
+      "KXGRECUP"
+    ],
+    "Italy Serie C Cup": [
+      "KXSERIECCUP"
+    ]
+  }
+}

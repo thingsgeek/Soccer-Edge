@@ -1,0 +1,14 @@
+{
+  "asOf": "2026-10-14",
+  "note": "US: conservative union of states reported in Oct 2026 as blocking or restricting Kalshi sports contracts (court orders, cease-and-desists, or Kalshi geofencing). Outside the US: countries excluded in Kalshi's international user agreement of Oct 10, 2025, as reported by PokerScout; 'Ukraine (occupied territories)' is treated as all of Ukraine because the app can't tell them apart. Sources disagree and this changes; Kalshi's own account and location checks are the final word. Edit this file or point eligibilityUrl at a copy you maintain.",
+  "kalshi": {
+    "sportsRestricted": ["AR", "AZ", "CT", "IL", "LA", "MA", "MD", "MI", "MT", "NJ", "NV", "NY", "OH"],
+    "platformRestricted": [],
+    "countrySource": "Kalshi international user agreement, Oct 10, 2025",
+    "countryRestricted": [
+      "AF", "DZ", "AO", "AU", "BY", "BO", "BG", "BF", "CM", "CA", "CF", "CI", "CU", "CD", "ET",
+      "FR", "HT", "IR", "IQ", "KE", "LA", "LB", "LY", "ML", "MC", "MZ", "MM", "NA", "NI", "NE",
+      "KP", "PL", "RU", "SG", "SO", "SS", "SD", "SY", "TW", "TH", "UA", "GB", "VE", "YE", "ZW"
+    ]
+  }
+}

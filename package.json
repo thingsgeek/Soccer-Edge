@@ -1,0 +1,27 @@
+{
+  "name": "soccer-edge",
+  "version": "0.41.1",
+  "description": "Matches PredyGo soccer picks to Kalshi markets and lets you trade them with your own Kalshi API key, under rules you set. Not affiliated with Kalshi.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "soccer-edge": "./src/cli.ts"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "build:win": "bun build src/cli.ts --compile --minify --target=bun-windows-x64 --windows-hide-console --outfile dist/soccer-edge.exe",
+    "build:mac": "python3 scripts/build-mac.py $npm_package_version",
+    "build:linux": "bun build src/cli.ts --compile --outfile dist/soccer-edge"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "pe-library": "1",
+    "resedit": "2",
+    "typescript": "^5.9.3"
+  }
+}

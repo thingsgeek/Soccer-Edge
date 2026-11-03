@@ -1,0 +1,5 @@
+{
+  "note": "Optional bundled hit rates by bet type ({bet, graded, wins, avgStatedPct}), used when your results feed has too few graded picks. Ships empty: hit rates come from your own PredyGo results feed.",
+  "asOf": "2000-01-01",
+  "bets": []
+}
