@@ -41,13 +41,75 @@ and an "Ask the AI" chat about your own data (Claude or ChatGPT, one at a time) 
 
 **Rules in force** lists every rule that can stop a pick, each with an on/off switch and the
 values behind it, editable in place. Out of the box the rules that second-guess PredyGo's picks
-are off; "Restore defaults" in Settings returns to that setup. A few rules are locked on
+are off; "Restore defaults" (bottom of Settings) returns to that setup. A few rules are locked on
 because "off" would mean buying something that doesn't exist or is already over. On by
 default: no buys from the 80th minute, one bet per game, the region check, and kickoff times
 agreeing with Kalshi.
 
 Your keys never leave your computer: they are stored encrypted with your password (plus
 Windows' own per-user encryption on Windows). There is no server.
+
+## Features
+
+### Picks and matching
+- Reads **published PredyGo picks** with your own key, filtered to your tier (you can only pick
+  your key's own tier or a lower one).
+- Matches each pick to the **exact Kalshi contract**: same league, game, line and side; the kickoff
+  must agree with Kalshi's schedule.
+- Separate **Pre-game picks**, **Live picks** and **Currently Active Positions** panels, each with a
+  status pill that says whether anything is bought automatically ("Buying automatically (Auto-trade
+  switch on)") or shown only.
+- Live picks are always checked and shown. Their win chance comes from your own graded results by
+  stage of the game, or PredyGo's stated confidence until there's enough history.
+
+### Trading
+- **Manual by default:** **Place** (pre-game) or **Buy** (live) sends one order after a confirmation.
+  Every order re-checks Kalshi's live price and your balance first, and is all-or-nothing.
+- Top-bar switches: **Auto-trade**, **Pre-game**, **Live**, **High-risk picks** (off by default), and
+  **Stop all trading** (kill switch: stops buying and cancels waiting orders).
+- **Buy at my price** (optional): leaves an order on Kalshi's book at what the pick is worth, until
+  shortly before kickoff.
+- **Use Kalshi odds over feed odds:** judges picks on Kalshi's live price so more picks can trade.
+
+### Rules in force (in Settings)
+- Every rule that can stop a pick, in the order it's applied, with an **on/off switch** and its
+  **values editable in place**: minimum win chance, edge, max price, spread, stake (flat or Kelly),
+  per-trade, daily and open-bet limits, live minute and pick age, and more.
+- Rules where "off" would mean buying something that doesn't exist are locked on, with the reason.
+- Defaults are set for **as many picks as possible**; switching off a rule that can cost money fast
+  (one bet per game, no buys from the 80th minute, region check...) asks first.
+- **Restore defaults** puts every setting and rule back; every tooltip shows its default.
+
+### AI assistant (optional, your own key)
+- **Claude** (Anthropic) or **ChatGPT** (OpenAI), one at a time, each with its own encrypted key.
+- **Pre-trade check:** confirms each order is the right game, line and side; can stop it or just log.
+- **Ask the AI:** a chat about your own settings, rules, trades, results, picks, activity and
+  diagnostics. Read-only: it can't change anything or trade.
+- Models are **discovered from the provider**, so a retired model is replaced automatically. Daily
+  spending budget; the cost of every call is shown.
+
+### Data and insight
+- Trades with live P/L and trend sparklines, a balance chart, and a **profit scorecard** by bet type,
+  price, league and source.
+- **Activity** log: each result is announced once, when a trade you hold is decided or settles.
+- **Diagnostics:** checks PredyGo, Kalshi, your settings and every pick, and explains why each pick
+  was bought or skipped.
+- **Export data:** one JSON file with orders, decisions, settlements, the trade journal and settings.
+- **Settings as XML:** export and import; a `soccer-edge-settings.xml` next to the app is imported
+  automatically.
+
+### Security and safety
+- Keys are stored **only in an encrypted file on your PC** (AES-256-GCM, key derived from your app
+  password with scrypt). The settings file can never contain a secret. There is no server.
+- A full **disclaimer** must be accepted before setup. Nobody else (not PredyGo, not the authors)
+  sees or controls your trades.
+- **Region check** against Kalshi's restricted states and countries.
+
+### Running it
+- **Background mode (Windows):** starts with Windows, unlocks itself with your password kept
+  encrypted for your Windows account, and keeps trading with the window closed.
+- **Updates:** start a new exe and it replaces the running copy.
+- A **command-line** mode for headless use.
 
 ## What you need
 
